@@ -60,7 +60,10 @@ class Owner
 
   def sell_pets
     binding.pry
-    self.cats.owner
+    self.cats.each do |cat|
+      cat.owner = nil
+      cat.mood = "nervous"
+    
 
 
   end
