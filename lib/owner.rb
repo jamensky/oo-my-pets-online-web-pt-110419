@@ -4,6 +4,7 @@ class Owner
   attr_reader :name, :species
 
   @@all = []
+  @@all_pets = []
 
   def initialize(name)
     @name = name
@@ -64,6 +65,7 @@ class Owner
       cat.owner = nil
       cat.mood = "nervous"
     end
+    self.
   end
 
 end
