@@ -63,7 +63,6 @@ class Owner
     self.cats.each do |cat|
       cat.owner = nil
       cat.mood = "nervous"
-
   end
 
 end
