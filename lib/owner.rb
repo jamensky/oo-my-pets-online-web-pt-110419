@@ -51,6 +51,7 @@ class Owner
        if dog_name == dog.name
          dog.mood = "happy"
        end
+       binding.pry
      end
   end
 
