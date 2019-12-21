@@ -46,7 +46,7 @@ class Owner
     dog = Dog.new(dog_name, self)
   end
 
-  def walk_dogs(dog_name)
+  def walk_dogs
     binding.pry
      Dog.all.each do |dog|
        if dog_name == dog.name
