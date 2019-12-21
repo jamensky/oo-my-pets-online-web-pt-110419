@@ -51,6 +51,7 @@ class Owner
        if dog_name == dog
          dog.mood = "happy"
        end
+     end
   end
 
 end
