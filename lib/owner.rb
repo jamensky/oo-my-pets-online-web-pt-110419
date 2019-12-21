@@ -54,7 +54,7 @@ class Owner
 
   def walk_cats
      Cat.all.each do |cat1|
-        dog.mood = "happy"
+        cat.mood = "happy"
      end
   end
 
