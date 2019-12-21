@@ -47,8 +47,8 @@ class Owner
   end
 
   def walk_dogs(dog_name)
+    binding.pry
      Dog.all.each do |dog|
-       binding.pry
        if dog_name == dog.name
          dog.mood = "happy"
        end
