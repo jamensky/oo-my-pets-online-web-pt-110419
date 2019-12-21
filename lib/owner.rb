@@ -43,7 +43,7 @@ class Owner
       if cat1.name == desired_cat
         cat1.owner = self
       end
-     binding.pry
+    # binding.pry
     end
   end
 
