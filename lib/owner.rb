@@ -40,7 +40,7 @@ class Owner
 
   def buy_cat(desired_cat)
     Cat.all.each do |cat1|
-      if cat1 == desired_cat.name
+      if cat1.name == desired_cat
         cat1.owner = self
       end
      binding.pry
