@@ -52,7 +52,7 @@ class Owner
      end
   end
 
-  def walk_cats
+  def feed_cats
      Cat.all.each do |cat1|
         cat.mood = "happy"
      end
