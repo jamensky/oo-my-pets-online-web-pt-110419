@@ -50,7 +50,7 @@ class Owner
      Dog.all.each do |dog|
        if dog_name == dog
          dog.mood = "happy"
-       end 
+       end
   end
 
 end
