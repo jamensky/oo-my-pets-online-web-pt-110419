@@ -73,7 +73,7 @@ class Owner
   end
 
   def list_pets
-    return "I have #{Dogs.all.each.count{|dog| dog.owner == self }} dog(s), and #{}
+    return "I have #{Dogs.all.each.count{|dog| dog.owner == self} dog(s), and #{}
   end
 
 end
